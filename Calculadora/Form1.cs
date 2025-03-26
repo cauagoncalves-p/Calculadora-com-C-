@@ -188,7 +188,7 @@ namespace Calculadora
                     return;
                 }
 
-                if (Convert.ToInt32(operados[1]) == 0)
+                if (Convert.ToDouble(operados[1]) == 0)
                 {
                     string resultado = "Não é possivel dividir por zero";
                     lbxTela.Items.Add("=");
